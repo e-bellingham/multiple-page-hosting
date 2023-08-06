@@ -1,5 +1,41 @@
 body {
-  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
-  background-size: contain;
-  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+h1 {
+  color: rgb(236, 117, 141);
+  padding-top: 30px;
+  padding-bottom: 11px;
+}
+p {
+  font-size: 18px;
+}
+img {
+  margin: 0 auto;
+  display: block;
+}
+footer {
+  margin-top: 27px;
+}
+.container-sm {
+  background: white;
+  padding-bottom: 30px;
+  border-radius: 4px;
+}
+.button {
+  background: rgb(242, 197, 37);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.button:hover {
+  opacity: 70%;
+}
+.button-active:hover {
+  opacity: 70%;
+}
+.button-active {
+  background: rgb(236, 117, 141);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
 }
